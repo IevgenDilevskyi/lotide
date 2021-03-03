@@ -11,7 +11,7 @@ const tail = function(array) {
   result = array.slice(1);
   return result;
 };
-console.log(tail([122]));
+console.log(tail([122, 133]));
 // Test Case: Check the original array
 const words = ["Yo Yo", "Lighthouse", "Labs"];
 tail(words); // no need to capture the return value since we are not checking it
