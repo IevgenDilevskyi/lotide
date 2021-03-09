@@ -1,0 +1,33 @@
+{
+  "name": "@ievgendilevskyi/lotide",
+  "version": "1.0.0",
+  "description": "lotide - library similar to Lodash library. Presents functions to work with arrays",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IevgenDilevskyi/lotide.git"
+  },
+  "keywords": [
+    "lotide",
+    "arrays"
+  ],
+  "author": {
+    "name" : "Ievgen Dilevskyi",
+    "email" : "e.dilevskiy@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IevgenDilevskyi/lotide/issues"
+  },
+  "homepage": "https://github.com/IevgenDilevskyi/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.3",
+    "mocha": "^8.3.1"
+  }
+}
